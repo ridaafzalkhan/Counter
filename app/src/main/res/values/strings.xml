@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CounterApp</string>
+    <string name="Increment">Increment</string>
+    <string name="Decrement">Decrement</string>
+    <string name="Reset">Reset</string>
+    <string name="textViewDef">0</string>
+
+
+
+</resources>
