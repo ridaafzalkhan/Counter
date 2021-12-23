@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
-    Button inc , dec , res;
+    Button inc , de , res;
     int counter;
 
     @Override
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView =(TextView) findViewById(R.id.textView);
         inc = (Button) findViewById(R.id.button3);
-        dec = (Button) findViewById(R.id.button2);
+        de = (Button) findViewById(R.id.button2);
         res = (Button) findViewById(R.id.button);
         inc.setOnClickListener(new View.OnClickListener() {
             @Override
